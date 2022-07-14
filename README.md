@@ -1,6 +1,6 @@
 # hello-php
 
-OBJETIVO: Esse documento tem como objetivo detalhar as regras de negócio necessárias para a implementação do teste técnico para desenvolvedor fullstack na CredPago.
+OBJETIVO: Esse documento tem como objetivo detalhar as regras de negócio necessárias para a implementação do teste técnico para desenvolvedor back end na CredPago.
 
 CENÁRIO: A empresa Aluguel Agora realiza a intermediação de contratos de aluguel entre inquilinos e imobiliárias. Uma das funcionalidades que o sistema do Aluguel Agora utiliza para isso é a análise de crédito, que valida informações financeiras do cliente para a possível aprovação automática do contrato de locação. Seguem os requisitos dessa funcionalidade do backend do sistema:
 
