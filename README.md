@@ -18,9 +18,10 @@ O backend deve ser criado em Laravel, sendo uma API Restful que receberá os dad
 
 Todo cliente inicia sua análise com 100 (cem) pontos, sendo essa a maior pontuação possível dentro do sistema. Conforme se apresentem os seguintes cenários, essa pontuação é calculada da seguinte forma:
 
-Caso o valor do aluguel ultrapasse 30% do salário , sua pontuação deve ser decrescida em 20%.
-Caso o cliente esteja com seu CPF negativado, sua pontuação deve ser decrescida em 30%.
-Caso as duas regras acima retornem como verdadeiras, a análise de crédito deve retornar como "Reprovada" e sua pontuação deve decrescida pelas duas regras acima.
-Caso o limite disponível no cartão do cliente não seja maior ou igual ao valor mensal de aluguel, sua pontuação deve ser decrescida em 15%.
-Caso o cliente já tenha realizada uma análise de crédito anterior que tenha sido reprovada, sua pontuação deve ser decrescida em 10% da pontuação de sua análise anterior.
+* Caso o valor do aluguel ultrapasse 30% do salário , sua pontuação deve ser decrescida em 20%.
+* Caso o cliente esteja com seu CPF negativado, sua pontuação deve ser decrescida em 30%.
+* Caso as duas regras acima retornem como verdadeiras, a análise de crédito deve retornar como "Reprovada" e sua pontuação deve decrescida pelas duas regras acima.
+* Caso o limite disponível no cartão do cliente não seja maior ou igual ao valor mensal de aluguel, sua pontuação deve ser decrescida em 15%.
+* Caso o cliente já tenha realizada uma análise de crédito anterior que tenha sido reprovada, sua pontuação deve ser decrescida em 10% da pontuação de sua análise anterior.
+
 A análise só deve retornar como "Aprovada" caso tenha somado 60 pontos ou mais após as validações supracitadas.
