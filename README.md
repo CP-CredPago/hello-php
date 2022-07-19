@@ -75,3 +75,4 @@ Os requisitos a seguir são opcionais, as suas realizações não são obrigató
 #### Observações: 
  * Dúvidas a respeito do teste podem ser sanadas via e-mail, com o solicitante do mesmo;
  * Plágio parcial ou total acarreta na desclassificação imediata do candidato;
+ * Por favor, não faça um fork deste repositório e não publique sua solução online! 
