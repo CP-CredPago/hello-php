@@ -62,6 +62,7 @@ Receber um CPF, em formato padrão (XXX.XXX.XXX-XX), e retornar o resultado da �
  3. Deverá ser utilizado banco de dados MariaDB ou PostgreSQL.
  4. Deverá ser utilizada alguma forma de geração de banco de dados, seja um .sql disponibilizado no Git, ou o uso das Migrations do próprio Laravel. 
  5. O Código deverá ser disponibilizado como um repositório privado do GitHub, compartilhado com o email do solicitante do teste.
+ 6. O arquivo README.md deverá conter os passos necessários para rodar o projeto em outras máquinas.
 
 #### Requisitos Opcionais: 
 Os requisitos a seguir são opcionais, as suas realizações não são obrigatórias, mas contam como pontos positivos na avaliação.
